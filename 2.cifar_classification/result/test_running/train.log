@@ -1,0 +1,2 @@
+Namespace(epochs=10, project_name='test_running', batch_size=4)
+2023-01-26 16:11:04,044 - Namespace(epochs=10, project_name='test_running', batch_size=4)
