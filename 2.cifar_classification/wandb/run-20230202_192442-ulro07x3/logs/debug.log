@@ -1,0 +1,27 @@
+2023-02-02 19:24:42,402 INFO    MainThread:15620 [wandb_setup.py:_flush():68] Configure stats pid to 15620
+2023-02-02 19:24:42,402 INFO    MainThread:15620 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\.config\wandb\settings
+2023-02-02 19:24:42,402 INFO    MainThread:15620 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\settings
+2023-02-02 19:24:42,402 INFO    MainThread:15620 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-02 19:24:42,403 INFO    MainThread:15620 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': '2.cifar_classification\\main.py', 'program': 'main.py'}
+2023-02-02 19:24:42,406 INFO    MainThread:15620 [wandb_init.py:_log_setup():478] Logging user logs to C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192442-ulro07x3\logs\debug.log
+2023-02-02 19:24:42,406 INFO    MainThread:15620 [wandb_init.py:_log_setup():479] Logging internal logs to C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192442-ulro07x3\logs\debug-internal.log
+2023-02-02 19:24:42,407 INFO    MainThread:15620 [wandb_init.py:init():518] calling init triggers
+2023-02-02 19:24:42,407 INFO    MainThread:15620 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-02 19:24:42,407 INFO    MainThread:15620 [wandb_init.py:init():571] starting backend
+2023-02-02 19:24:42,407 INFO    MainThread:15620 [wandb_init.py:init():575] setting up manager
+2023-02-02 19:24:42,414 INFO    MainThread:15620 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-02-02 19:24:42,425 INFO    MainThread:15620 [wandb_init.py:init():582] backend started and connected
+2023-02-02 19:24:42,427 INFO    MainThread:15620 [wandb_init.py:init():670] updated telemetry
+2023-02-02 19:24:42,678 INFO    MainThread:15620 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-02 19:24:43,256 INFO    MainThread:15620 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-02 19:24:43,378 INFO    MainThread:15620 [wandb_run.py:_on_init():2125] got version response 
+2023-02-02 19:24:43,378 INFO    MainThread:15620 [wandb_init.py:init():758] starting run threads in backend
+2023-02-02 19:24:44,856 INFO    MainThread:15620 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-02 19:24:44,856 INFO    MainThread:15620 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-02 19:24:44,856 INFO    MainThread:15620 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-02 19:24:44,856 INFO    MainThread:15620 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-02 19:24:44,857 INFO    MainThread:15620 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-02 19:24:44,857 INFO    MainThread:15620 [wandb_run.py:_config_callback():1249] config_cb None None {'epochs': 10, 'project_name': 'resnet_cifar10', 'batch_size': 4, 'learning_rate': 0.0001, 'print_freq': 100}
+2023-02-02 19:24:46,322 INFO    MainThread:15620 [wandb_watch.py:watch():51] Watching
+2023-02-02 19:25:41,290 WARNING MsgRouterThr:15620 [router.py:message_loop():77] message_loop has been closed

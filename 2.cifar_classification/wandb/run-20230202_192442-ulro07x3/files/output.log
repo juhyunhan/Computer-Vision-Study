@@ -1,0 +1,31 @@
+Files already downloaded and verified
+Files already downloaded and verified
+2023-02-02 19:24:46,887 -  [LOSS]] : 2.450760841369629 | [ACC]:0.0
+2023-02-02 19:24:48,669 -  [LOSS]] : 2.6523776054382324 | [ACC]:14.108910891089108
+2023-02-02 19:24:50,491 -  [LOSS]] : 3.032575845718384 | [ACC]:14.925373134328357
+2023-02-02 19:24:52,268 -  [LOSS]] : 2.0761148929595947 | [ACC]:14.451827242524917
+2023-02-02 19:24:54,007 -  [LOSS]] : 1.7299703359603882 | [ACC]:14.089775561097257
+2023-02-02 19:24:55,741 -  [LOSS]] : 2.315145969390869 | [ACC]:15.06986027944112
+2023-02-02 19:24:57,567 -  [LOSS]] : 1.491749882698059 | [ACC]:15.682196339434276
+2023-02-02 19:24:59,438 -  [LOSS]] : 2.2420730590820312 | [ACC]:16.690442225392296
+2023-02-02 19:25:01,245 -  [LOSS]] : 2.2471675872802734 | [ACC]:17.134831460674157
+2023-02-02 19:25:03,112 -  [LOSS]] : 1.770440697669983 | [ACC]:17.7857935627081
+2023-02-02 19:25:07,239 -  [LOSS]] : 2.1401314735412598 | [ACC]:18.256743256743256
+2023-02-02 19:25:11,918 -  [LOSS]] : 2.127657175064087 | [ACC]:18.642143505903725
+2023-02-02 19:25:16,706 -  [LOSS]] : 1.9481626749038696 | [ACC]:18.63030807660283
+2023-02-02 19:25:21,276 -  [LOSS]] : 1.9770219326019287 | [ACC]:18.447348193697156
+2023-02-02 19:25:25,935 -  [LOSS]] : 1.6779937744140625 | [ACC]:18.61170592433976
+Traceback (most recent call last):
+  File "main.py", line 115, in <module>
+    main(args)
+  File "main.py", line 110, in main
+    train(train_loader, model, optimizer, criterion, args.print_freq, logger)
+  File "main.py", line 38, in train
+    loss.backward() #미분하면서 gradient 값이 생김
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torch\_tensor.py", line 396, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torch\autograd\__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\wandb\wandb_torch.py", line 282, in <lambda>
+    handle = var.register_hook(lambda grad: _callback(grad, log_track))
+KeyboardInterrupt

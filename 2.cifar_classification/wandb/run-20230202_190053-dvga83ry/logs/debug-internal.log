@@ -1,0 +1,201 @@
+2023-02-02 19:00:53,094 INFO    StreamThr :10328 [internal.py:wandb_internal():87] W&B internal server running at pid: 10328, started at: 2023-02-02 19:00:53.092730
+2023-02-02 19:00:53,098 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: status
+2023-02-02 19:00:53,101 INFO    WriterThread:10328 [datastore.py:open_for_write():85] open: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\run-dvga83ry.wandb
+2023-02-02 19:00:53,114 DEBUG   SenderThread:10328 [sender.py:send():334] send: header
+2023-02-02 19:00:53,359 DEBUG   SenderThread:10328 [sender.py:send():334] send: run
+2023-02-02 19:00:53,935 INFO    SenderThread:10328 [dir_watcher.py:__init__():216] watching files in: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files
+2023-02-02 19:00:53,936 INFO    SenderThread:10328 [sender.py:_start_run_threads():1065] run started: dvga83ry with start time 1675332053.09273
+2023-02-02 19:00:53,936 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:00:53,939 INFO    SenderThread:10328 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:00:53,949 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: check_version
+2023-02-02 19:00:53,950 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: check_version
+2023-02-02 19:00:54,080 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: run_start
+2023-02-02 19:00:54,950 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-summary.json
+2023-02-02 19:00:55,084 DEBUG   HandlerThread:10328 [system_info.py:__init__():31] System info init
+2023-02-02 19:00:55,084 DEBUG   HandlerThread:10328 [system_info.py:__init__():46] System info init done
+2023-02-02 19:00:55,084 INFO    HandlerThread:10328 [system_monitor.py:start():151] Starting system monitor
+2023-02-02 19:00:55,085 INFO    SystemMonitor:10328 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-02 19:00:55,085 INFO    HandlerThread:10328 [system_monitor.py:probe():172] Collecting system info
+2023-02-02 19:00:55,092 INFO    SystemMonitor:10328 [interfaces.py:start():168] Started cpu
+2023-02-02 19:00:55,093 INFO    SystemMonitor:10328 [interfaces.py:start():168] Started disk
+2023-02-02 19:00:55,094 INFO    SystemMonitor:10328 [interfaces.py:start():168] Started gpu
+2023-02-02 19:00:55,095 INFO    SystemMonitor:10328 [interfaces.py:start():168] Started memory
+2023-02-02 19:00:55,136 INFO    SystemMonitor:10328 [interfaces.py:start():168] Started network
+2023-02-02 19:00:55,242 DEBUG   HandlerThread:10328 [system_info.py:probe():195] Probing system
+2023-02-02 19:00:55,245 ERROR   gpu       :10328 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:00:55,246 ERROR   gpu       :10328 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:00:55,246 DEBUG   HandlerThread:10328 [system_info.py:_probe_git():180] Probing git
+2023-02-02 19:00:55,695 DEBUG   HandlerThread:10328 [system_info.py:_probe_git():188] Probing git done
+2023-02-02 19:00:55,695 DEBUG   HandlerThread:10328 [system_info.py:probe():241] Probing system done
+2023-02-02 19:00:55,696 DEBUG   HandlerThread:10328 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.8.13', 'heartbeatAt': '2023-02-02T10:00:55.242777', 'startedAt': '2023-02-02T10:00:53.056507', 'docker': None, 'cuda': None, 'args': ('-n', 'wandbtest'), 'state': 'running', 'program': 'main.py', 'codePath': '2.cifar_classification\\main.py', 'git': {'remote': 'https://github.com/juhyunhan/machine-learning-study.git', 'commit': '5cf0a3a36de24c7121c9dc273c3681084bd43bf9'}, 'email': 'vvontomato@gmail.com', 'root': 'C:/Users/hjjh2/workspace/machine-learning-study', 'host': 'vvonto', 'username': 'hjjh2', 'executable': 'C:\\Users\\hjjh2\\anaconda3\\envs\\pytorch\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1200.0, 'min': 0.0, 'max': 2801.0}, 'cpu_freq_per_core': [{'current': 1200.0, 'min': 0.0, 'max': 2801.0}], 'disk': {'total': 457.85937118530273, 'used': 232.66030502319336}, 'gpu': 'GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.684402465820312}}
+2023-02-02 19:00:55,696 INFO    HandlerThread:10328 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-02 19:00:55,696 INFO    HandlerThread:10328 [system_monitor.py:probe():185] Publishing system info
+2023-02-02 19:00:55,696 DEBUG   HandlerThread:10328 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-02 19:00:55,700 DEBUG   HandlerThread:10328 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-02 19:00:55,700 DEBUG   HandlerThread:10328 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-02 19:00:55,712 ERROR   HandlerThread:10328 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 지정된 파일을 찾을 수 없습니다
+Traceback (most recent call last):
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+2023-02-02 19:00:55,717 DEBUG   HandlerThread:10328 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-02 19:00:55,720 INFO    HandlerThread:10328 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-02 19:00:55,735 DEBUG   SenderThread:10328 [sender.py:send():334] send: files
+2023-02-02 19:00:55,735 INFO    SenderThread:10328 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-02-02 19:00:55,768 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-02 19:00:55,769 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: stop_status
+2023-02-02 19:00:55,960 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\requirements.txt
+2023-02-02 19:00:55,961 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-metadata.json
+2023-02-02 19:00:55,961 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\conda-environment.yaml
+2023-02-02 19:00:56,027 DEBUG   SenderThread:10328 [sender.py:send():334] send: telemetry
+2023-02-02 19:00:56,027 DEBUG   SenderThread:10328 [sender.py:send():334] send: config
+2023-02-02 19:00:56,571 INFO    Thread-22 :10328 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\AppData\Local\Temp\tmp60870x_3wandb\7pmy1xdj-wandb-metadata.json
+2023-02-02 19:00:56,973 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\output.log
+2023-02-02 19:00:57,330 DEBUG   SenderThread:10328 [sender.py:send():334] send: exit
+2023-02-02 19:00:57,331 INFO    SenderThread:10328 [sender.py:send_exit():557] handling exit code: 1
+2023-02-02 19:00:57,331 INFO    SenderThread:10328 [sender.py:send_exit():559] handling runtime: 3
+2023-02-02 19:00:57,332 INFO    SenderThread:10328 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:00:57,333 INFO    SenderThread:10328 [sender.py:send_exit():565] send defer
+2023-02-02 19:00:57,333 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,334 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-02 19:00:57,334 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,334 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-02-02 19:00:57,334 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 1
+2023-02-02 19:00:57,334 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,334 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-02 19:00:57,335 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,335 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-02-02 19:00:57,335 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 2
+2023-02-02 19:00:57,335 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,336 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-02 19:00:57,336 INFO    HandlerThread:10328 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-02 19:00:57,336 DEBUG   SystemMonitor:10328 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-02 19:00:57,336 DEBUG   SystemMonitor:10328 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-02 19:00:57,337 DEBUG   SystemMonitor:10328 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-02 19:00:57,337 INFO    HandlerThread:10328 [interfaces.py:finish():175] Joined cpu
+2023-02-02 19:00:57,338 INFO    HandlerThread:10328 [interfaces.py:finish():175] Joined disk
+2023-02-02 19:00:57,656 ERROR   gpu       :10328 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:00:57,656 ERROR   gpu       :10328 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:00:57,690 ERROR   gpu       :10328 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-02-02 19:00:57,690 INFO    HandlerThread:10328 [interfaces.py:finish():175] Joined gpu
+2023-02-02 19:00:57,690 INFO    HandlerThread:10328 [interfaces.py:finish():175] Joined memory
+2023-02-02 19:00:57,690 INFO    HandlerThread:10328 [interfaces.py:finish():175] Joined network
+2023-02-02 19:00:57,691 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,691 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-02-02 19:00:57,691 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 3
+2023-02-02 19:00:57,691 DEBUG   SenderThread:10328 [sender.py:send():334] send: stats
+2023-02-02 19:00:57,691 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,692 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-02 19:00:57,692 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,692 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-02-02 19:00:57,692 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 4
+2023-02-02 19:00:57,692 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,693 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-02 19:00:57,693 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,693 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-02-02 19:00:57,693 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 5
+2023-02-02 19:00:57,693 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,693 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-02 19:00:57,694 DEBUG   SenderThread:10328 [sender.py:send():334] send: summary
+2023-02-02 19:00:57,695 INFO    SenderThread:10328 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:00:57,696 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,696 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-02-02 19:00:57,696 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 6
+2023-02-02 19:00:57,696 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,696 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-02 19:00:57,696 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,697 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-02-02 19:00:57,702 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:00:57,970 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 7
+2023-02-02 19:00:57,971 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:57,971 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-02 19:00:57,972 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:57,972 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-02-02 19:00:57,983 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\config.yaml
+2023-02-02 19:00:57,984 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-summary.json
+2023-02-02 19:00:58,352 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-02 19:00:58,990 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\output.log
+2023-02-02 19:00:59,335 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 8
+2023-02-02 19:00:59,335 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: poll_exit
+2023-02-02 19:00:59,336 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:59,337 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-02 19:00:59,337 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:00:59,338 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-02-02 19:00:59,496 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-02 19:00:59,552 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 9
+2023-02-02 19:00:59,552 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: poll_exit
+2023-02-02 19:00:59,552 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:00:59,553 DEBUG   SenderThread:10328 [sender.py:send():334] send: artifact
+2023-02-02 19:00:59,553 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-02 19:00:59,996 INFO    Thread-17 :10328 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\output.log
+2023-02-02 19:01:00,506 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-02 19:01:01,451 INFO    Thread-24 :10328 [upload_job.py:push():101] Uploaded file C:\Users\hjjh2\AppData\Local\wandb\wandb\artifacts\staging\tmp8gvmn8c_
+2023-02-02 19:01:01,452 INFO    Thread-25 :10328 [upload_job.py:push():101] Uploaded file C:\Users\hjjh2\AppData\Local\wandb\wandb\artifacts\staging\tmpoprucjwn
+2023-02-02 19:01:03,248 INFO    SenderThread:10328 [sender.py:send_artifact():1415] sent artifact job-https___github.com_juhyunhan_machine-learning-study.git_2.cifar_classification_main.py - {'id': 'QXJ0aWZhY3Q6MzUxNjcwNzQ2', 'digest': 'c804bc36b1faaa815c5177916344e3a5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjUxNzEwNzEz', 'latestArtifact': None}, 'version': 'latest'}
+2023-02-02 19:01:03,248 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:03,248 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-02-02 19:01:03,248 INFO    SenderThread:10328 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-02 19:01:04,032 INFO    SenderThread:10328 [dir_watcher.py:finish():392] scan: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files
+2023-02-02 19:01:04,033 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\conda-environment.yaml conda-environment.yaml
+2023-02-02 19:01:04,034 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\config.yaml config.yaml
+2023-02-02 19:01:04,035 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\output.log output.log
+2023-02-02 19:01:04,044 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\requirements.txt requirements.txt
+2023-02-02 19:01:04,054 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-metadata.json wandb-metadata.json
+2023-02-02 19:01:04,054 INFO    SenderThread:10328 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-summary.json wandb-summary.json
+2023-02-02 19:01:04,065 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 10
+2023-02-02 19:01:04,065 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: poll_exit
+2023-02-02 19:01:04,066 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:01:04,067 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-02 19:01:04,076 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:04,076 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-02-02 19:01:04,078 INFO    SenderThread:10328 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-02 19:01:04,778 INFO    Thread-27 :10328 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\output.log
+2023-02-02 19:01:04,800 INFO    Thread-28 :10328 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\requirements.txt
+2023-02-02 19:01:04,813 INFO    Thread-29 :10328 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\wandb-summary.json
+2023-02-02 19:01:04,819 INFO    Thread-26 :10328 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\files\config.yaml
+2023-02-02 19:01:05,034 INFO    Thread-16 :10328 [sender.py:transition_state():585] send defer: 11
+2023-02-02 19:01:05,035 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:01:05,035 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-02 19:01:05,035 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:05,035 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-02-02 19:01:05,036 INFO    SenderThread:10328 [file_pusher.py:join():165] waiting for file pusher
+2023-02-02 19:01:05,036 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 12
+2023-02-02 19:01:05,036 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:01:05,037 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-02 19:01:05,037 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:01:05,038 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:05,039 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-02-02 19:01:05,541 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:01:06,444 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 13
+2023-02-02 19:01:06,445 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:01:06,445 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-02 19:01:06,446 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:06,446 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-02-02 19:01:06,446 INFO    SenderThread:10328 [sender.py:transition_state():585] send defer: 14
+2023-02-02 19:01:06,447 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: defer
+2023-02-02 19:01:06,448 INFO    HandlerThread:10328 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-02 19:01:06,449 DEBUG   SenderThread:10328 [sender.py:send():334] send: final
+2023-02-02 19:01:06,449 DEBUG   SenderThread:10328 [sender.py:send():334] send: footer
+2023-02-02 19:01:06,450 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: defer
+2023-02-02 19:01:06,450 INFO    SenderThread:10328 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-02-02 19:01:06,453 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-02 19:01:06,454 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: server_info
+2023-02-02 19:01:06,454 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-02 19:01:06,454 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: poll_exit
+2023-02-02 19:01:06,455 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-02 19:01:06,456 DEBUG   SenderThread:10328 [sender.py:send_request():361] send_request: server_info
+2023-02-02 19:01:06,716 INFO    MainThread:10328 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-02-02 19:01:06,716 INFO    MainThread:10328 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-02-02 19:01:06,716 INFO    MainThread:10328 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-02-02 19:01:06,726 DEBUG   HandlerThread:10328 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-02 19:01:06,727 INFO    HandlerThread:10328 [handler.py:finish():841] shutting down handler
+2023-02-02 19:01:07,455 INFO    WriterThread:10328 [datastore.py:close():299] close: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\run-dvga83ry.wandb
+2023-02-02 19:01:07,719 INFO    SenderThread:10328 [sender.py:finish():1491] shutting down sender
+2023-02-02 19:01:07,719 INFO    SenderThread:10328 [file_pusher.py:finish():160] shutting down file pusher
+2023-02-02 19:01:07,719 INFO    SenderThread:10328 [file_pusher.py:join():165] waiting for file pusher

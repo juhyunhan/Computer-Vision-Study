@@ -1,0 +1,449 @@
+2023-02-02 19:26:01,758 INFO    StreamThr :16832 [internal.py:wandb_internal():87] W&B internal server running at pid: 16832, started at: 2023-02-02 19:26:01.756615
+2023-02-02 19:26:01,762 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status
+2023-02-02 19:26:01,765 INFO    WriterThread:16832 [datastore.py:open_for_write():85] open: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\run-fm5zn8lg.wandb
+2023-02-02 19:26:01,778 DEBUG   SenderThread:16832 [sender.py:send():334] send: header
+2023-02-02 19:26:02,017 DEBUG   SenderThread:16832 [sender.py:send():334] send: run
+2023-02-02 19:26:02,605 INFO    SenderThread:16832 [dir_watcher.py:__init__():216] watching files in: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files
+2023-02-02 19:26:02,605 INFO    SenderThread:16832 [sender.py:_start_run_threads():1065] run started: fm5zn8lg with start time 1675333561.760481
+2023-02-02 19:26:02,605 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:02,608 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:02,618 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: check_version
+2023-02-02 19:26:02,618 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: check_version
+2023-02-02 19:26:02,728 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: run_start
+2023-02-02 19:26:03,637 DEBUG   HandlerThread:16832 [system_info.py:__init__():31] System info init
+2023-02-02 19:26:03,637 DEBUG   HandlerThread:16832 [system_info.py:__init__():46] System info init done
+2023-02-02 19:26:03,637 INFO    HandlerThread:16832 [system_monitor.py:start():151] Starting system monitor
+2023-02-02 19:26:03,641 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:03,641 INFO    SystemMonitor:16832 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-02 19:26:03,641 INFO    HandlerThread:16832 [system_monitor.py:probe():172] Collecting system info
+2023-02-02 19:26:03,645 INFO    SystemMonitor:16832 [interfaces.py:start():168] Started cpu
+2023-02-02 19:26:03,646 INFO    SystemMonitor:16832 [interfaces.py:start():168] Started disk
+2023-02-02 19:26:03,646 INFO    SystemMonitor:16832 [interfaces.py:start():168] Started gpu
+2023-02-02 19:26:03,646 INFO    SystemMonitor:16832 [interfaces.py:start():168] Started memory
+2023-02-02 19:26:03,677 INFO    SystemMonitor:16832 [interfaces.py:start():168] Started network
+2023-02-02 19:26:03,697 DEBUG   HandlerThread:16832 [system_info.py:probe():195] Probing system
+2023-02-02 19:26:03,700 DEBUG   HandlerThread:16832 [system_info.py:_probe_git():180] Probing git
+2023-02-02 19:26:03,701 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:03,702 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:04,021 DEBUG   HandlerThread:16832 [system_info.py:_probe_git():188] Probing git done
+2023-02-02 19:26:04,022 DEBUG   HandlerThread:16832 [system_info.py:probe():241] Probing system done
+2023-02-02 19:26:04,022 DEBUG   HandlerThread:16832 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.8.13', 'heartbeatAt': '2023-02-02T10:26:03.698574', 'startedAt': '2023-02-02T10:26:01.723415', 'docker': None, 'cuda': None, 'args': ('-n', 'resnet_cifar10'), 'state': 'running', 'program': 'main.py', 'codePath': '2.cifar_classification\\main.py', 'git': {'remote': 'https://github.com/juhyunhan/machine-learning-study.git', 'commit': '5cf0a3a36de24c7121c9dc273c3681084bd43bf9'}, 'email': 'vvontomato@gmail.com', 'root': 'C:/Users/hjjh2/workspace/machine-learning-study', 'host': 'vvonto', 'username': 'hjjh2', 'executable': 'C:\\Users\\hjjh2\\anaconda3\\envs\\pytorch\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2801.0, 'min': 0.0, 'max': 2801.0}, 'cpu_freq_per_core': [{'current': 2801.0, 'min': 0.0, 'max': 2801.0}], 'disk': {'total': 457.85937118530273, 'used': 232.66596221923828}, 'gpu': 'GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.684402465820312}}
+2023-02-02 19:26:04,022 INFO    HandlerThread:16832 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-02 19:26:04,023 INFO    HandlerThread:16832 [system_monitor.py:probe():185] Publishing system info
+2023-02-02 19:26:04,023 DEBUG   HandlerThread:16832 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-02 19:26:04,027 DEBUG   HandlerThread:16832 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-02 19:26:04,027 DEBUG   HandlerThread:16832 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-02-02 19:26:04,040 ERROR   HandlerThread:16832 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 지정된 파일을 찾을 수 없습니다
+Traceback (most recent call last):
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+2023-02-02 19:26:04,044 DEBUG   HandlerThread:16832 [system_info.py:_save_conda():86] Saving conda packages done
+2023-02-02 19:26:04,046 INFO    HandlerThread:16832 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-02 19:26:04,058 DEBUG   SenderThread:16832 [sender.py:send():334] send: files
+2023-02-02 19:26:04,058 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-02-02 19:26:04,083 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-02 19:26:04,085 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: stop_status
+2023-02-02 19:26:04,391 DEBUG   SenderThread:16832 [sender.py:send():334] send: telemetry
+2023-02-02 19:26:04,391 DEBUG   SenderThread:16832 [sender.py:send():334] send: config
+2023-02-02 19:26:04,644 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-metadata.json
+2023-02-02 19:26:04,645 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:04,645 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\requirements.txt
+2023-02-02 19:26:04,646 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\conda-environment.yaml
+2023-02-02 19:26:04,754 INFO    Thread-22 :16832 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\AppData\Local\Temp\tmpdqdj43nawandb\rww8y267-wandb-metadata.json
+2023-02-02 19:26:05,681 DEBUG   SenderThread:16832 [sender.py:send():334] send: telemetry
+2023-02-02 19:26:06,146 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:06,146 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:06,245 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:06,247 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:06,247 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:06,248 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:06,665 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:06,666 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:07,259 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:08,006 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:08,007 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:08,007 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:08,009 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:08,487 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:08,488 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:08,682 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:08,682 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:09,825 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:09,826 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:09,826 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:09,828 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:10,704 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:10,704 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:10,826 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:10,826 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:11,531 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:11,531 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:11,532 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:11,533 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:11,709 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:12,535 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:12,721 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:13,157 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:13,157 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:13,226 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:13,227 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:13,227 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:13,228 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:13,728 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:14,732 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:14,971 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:14,971 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:14,971 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:14,973 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:15,485 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:15,485 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:15,743 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:16,726 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:16,727 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:16,727 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:16,729 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:16,753 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:16,753 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:17,735 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:17,815 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:17,815 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:18,434 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:18,435 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:18,435 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:18,437 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:18,775 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:18,776 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:19,084 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:20,128 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:20,129 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:20,190 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:20,191 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:20,191 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:20,193 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:20,798 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:20,799 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:21,879 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:21,880 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:21,880 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:21,881 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:22,452 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:22,452 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:22,817 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:22,818 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:22,893 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:23,587 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,588 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,589 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,589 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,591 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,592 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,592 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,594 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,595 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,596 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,597 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,597 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,598 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,600 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,600 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,600 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,602 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,602 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,602 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,604 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,604 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,604 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,605 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,606 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,606 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,607 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,607 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,608 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,609 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,609 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,609 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,610 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,611 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,611 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,612 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,613 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,613 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,614 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,614 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,615 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,615 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,616 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,616 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,617 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,617 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,617 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,618 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,639 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:23,654 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:23,661 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:23,668 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:23,825 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:24,185 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:24,783 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:24,784 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:24,836 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:25,463 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:25,468 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:25,469 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:25,480 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:25,846 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:26,854 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:27,109 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:27,109 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:27,247 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:27,254 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:27,254 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:27,265 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:27,862 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:28,276 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:28,872 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:29,066 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:29,072 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:29,072 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:29,079 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:29,182 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:29,437 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:29,438 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:29,882 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:30,785 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:30,792 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:30,792 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:30,800 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:30,897 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:30,897 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:31,771 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:31,771 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:32,572 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:32,579 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:32,579 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:32,589 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:32,909 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:32,910 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:33,611 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:34,102 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:34,103 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:34,222 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:34,340 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:34,345 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:34,345 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:34,352 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:34,920 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:34,920 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\config.yaml
+2023-02-02 19:26:34,921 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:36,120 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:36,125 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:36,125 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:36,133 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:36,491 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:36,491 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:36,933 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:36,933 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:37,849 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:37,856 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:37,856 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:37,863 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:37,942 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:38,836 ERROR   gpu       :16832 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-02-02 19:26:38,862 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:38,862 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:38,954 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:39,264 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:39,612 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:39,617 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:39,618 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:39,618 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:39,628 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:39,968 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:40,976 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:41,199 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:41,199 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:41,377 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,378 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,378 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,379 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,380 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,380 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,381 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,382 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,382 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,383 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,384 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,384 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,384 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,386 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,386 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,386 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,387 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,388 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,388 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,389 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,390 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,390 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,391 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,392 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,392 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,393 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,393 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,394 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,395 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,395 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,396 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,397 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,397 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,398 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,399 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,399 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,399 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,400 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,401 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,401 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,402 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,402 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,402 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,403 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,404 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,404 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,404 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,426 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:41,440 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:41,446 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:41,454 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:41,990 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:42,998 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:43,389 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:43,396 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:43,397 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:43,409 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:43,532 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:43,533 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:44,002 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:44,294 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:45,007 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:45,312 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:45,316 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:45,317 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:45,317 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:45,323 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:45,854 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:45,855 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:46,018 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:47,026 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:47,161 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:47,169 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:47,169 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:47,179 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:48,039 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:48,197 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:48,197 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:48,924 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:48,931 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:48,931 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:48,938 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:49,052 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:49,052 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:49,345 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:50,537 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:50,538 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:50,625 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:50,629 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:50,630 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:50,630 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:50,639 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:51,061 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:51,061 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:52,419 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:52,424 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:52,425 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:52,431 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:52,909 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:52,909 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:53,071 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:53,071 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:54,140 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:54,146 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:54,147 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:54,154 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:54,392 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:55,091 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:55,091 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:55,239 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:55,239 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:55,966 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:55,972 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:55,973 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:55,973 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: status_report
+2023-02-02 19:26:55,985 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:56,103 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:57,112 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:57,579 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:57,580 ERROR   gpu       :16832 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-02-02 19:26:57,737 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:57,743 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:57,743 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:57,751 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-02-02 19:26:58,121 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\wandb-summary.json
+2023-02-02 19:26:59,125 INFO    Thread-17 :16832 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_192601-fm5zn8lg\files\output.log
+2023-02-02 19:26:59,434 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-02 19:26:59,447 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,448 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,449 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,449 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,451 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,451 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,452 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,453 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,453 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,454 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,455 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,455 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,456 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,457 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,457 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,457 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,459 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,459 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,460 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,461 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,461 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,461 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,463 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,463 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,463 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,464 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,464 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,465 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,466 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,466 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,467 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,467 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,468 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,469 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,469 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,469 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,469 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,470 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,471 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,472 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,472 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,473 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,473 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,474 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,474 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,475 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,475 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,497 DEBUG   HandlerThread:16832 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-02 19:26:59,516 DEBUG   SenderThread:16832 [sender.py:send():334] send: history
+2023-02-02 19:26:59,521 DEBUG   SenderThread:16832 [sender.py:send_request():361] send_request: summary_record
+2023-02-02 19:26:59,531 INFO    SenderThread:16832 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end

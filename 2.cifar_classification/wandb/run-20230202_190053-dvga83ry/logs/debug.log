@@ -1,0 +1,27 @@
+2023-02-02 19:00:53,068 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Configure stats pid to 20700
+2023-02-02 19:00:53,068 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\.config\wandb\settings
+2023-02-02 19:00:53,068 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\settings
+2023-02-02 19:00:53,069 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-02 19:00:53,069 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': '2.cifar_classification\\main.py', 'program': 'main.py'}
+2023-02-02 19:00:53,071 INFO    MainThread:20700 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-02-02 19:00:53,071 INFO    MainThread:20700 [wandb_init.py:_log_setup():478] Logging user logs to C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\logs\debug.log
+2023-02-02 19:00:53,072 INFO    MainThread:20700 [wandb_init.py:_log_setup():479] Logging internal logs to C:\Users\hjjh2\workspace\machine-learning-study\2.cifar_classification\wandb\run-20230202_190053-dvga83ry\logs\debug-internal.log
+2023-02-02 19:00:53,072 INFO    MainThread:20700 [wandb_init.py:init():518] calling init triggers
+2023-02-02 19:00:53,072 INFO    MainThread:20700 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-02-02 19:00:53,072 INFO    MainThread:20700 [wandb_init.py:init():571] starting backend
+2023-02-02 19:00:53,073 INFO    MainThread:20700 [wandb_init.py:init():575] setting up manager
+2023-02-02 19:00:53,079 INFO    MainThread:20700 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-02-02 19:00:53,091 INFO    MainThread:20700 [wandb_init.py:init():582] backend started and connected
+2023-02-02 19:00:53,094 INFO    MainThread:20700 [wandb_init.py:init():670] updated telemetry
+2023-02-02 19:00:53,357 INFO    MainThread:20700 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-02-02 19:00:53,948 INFO    MainThread:20700 [wandb_run.py:_on_init():2121] communicating current version
+2023-02-02 19:00:54,060 INFO    MainThread:20700 [wandb_run.py:_on_init():2125] got version response 
+2023-02-02 19:00:54,060 INFO    MainThread:20700 [wandb_init.py:init():758] starting run threads in backend
+2023-02-02 19:00:55,769 INFO    MainThread:20700 [wandb_run.py:_console_start():2101] atexit reg
+2023-02-02 19:00:55,769 INFO    MainThread:20700 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-02-02 19:00:55,770 INFO    MainThread:20700 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-02-02 19:00:55,770 INFO    MainThread:20700 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-02-02 19:00:55,771 INFO    MainThread:20700 [wandb_init.py:init():798] run started, returning control to user process
+2023-02-02 19:00:55,772 INFO    MainThread:20700 [wandb_run.py:_config_callback():1249] config_cb None None {'epochs': 10, 'project_name': 'wandbtest', 'batch_size': 4, 'learning_rate': 0.0001, 'print_freq': 100}
+2023-02-02 19:01:07,828 WARNING MsgRouterThr:20700 [router.py:message_loop():77] message_loop has been closed
