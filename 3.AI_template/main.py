@@ -16,7 +16,6 @@ def parse_args():
     parser.add_argument('--batch_size', '-b', type=int, default=4)
     parser.add_argument('--learning_rate', '-lr', type=float, default=0.001)
     parser.add_argument('--print_freq', '-pf', type=int, default=100)
-
     
     return parser.parse_args()
 
@@ -28,8 +27,6 @@ def train(train_loader, model, optimizer, criterion, print_freq, logger):
     correct = 0
 
     for i, (img, label) in enumerate(train_loader):
-        if i > 3000:
-            break
         total += img.shape[0] #B, C, H, W 중 B
         pred = model(img) #B, C, H, W
         #print(pred.shape) B, 10(클래스 10)

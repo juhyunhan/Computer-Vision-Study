@@ -10,16 +10,19 @@ class CamSeq(data.Dataset):
         super().__init__()
         path = os.path.dirname(os.path.abspath(__file__))
         print(path)
-        self.files = glob.glob(path + '/camseq2007/*L.png')
+        self.files = glob.glob(path + '/camseq2007/*L.png') #리스트에 담김
         if len(self.files) == 0 :  
             raise ValueError("Dataset not found ! !")
         
         print(len(self.files))
         
     def __len__(self):
-        pass
+        return len(self.files)
     
     def __getitem__(self, index):
-        pass
+        img_path = self.files[index]
+        label = Image.open(label_path)
         
+        label = Image.open(self.files[index])
+        img_path = img_path[:-6] + '.png'
 
