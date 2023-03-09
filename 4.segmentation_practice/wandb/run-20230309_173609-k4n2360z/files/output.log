@@ -1,0 +1,32 @@
+C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2023-03-09 17:36:12,409 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,410 - STREAM b'IDAT' 41 20736
+2023-03-09 17:36:12,435 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,436 - STREAM b'pHYs' 41 9
+2023-03-09 17:36:12,437 - STREAM b'IDAT' 62 8192
+2023-03-09 17:36:12,466 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,467 - STREAM b'IDAT' 41 18377
+2023-03-09 17:36:12,491 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,491 - STREAM b'pHYs' 41 9
+2023-03-09 17:36:12,492 - STREAM b'IDAT' 62 8192
+2023-03-09 17:36:12,528 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,529 - STREAM b'IDAT' 41 20856
+2023-03-09 17:36:12,549 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,550 - STREAM b'pHYs' 41 9
+2023-03-09 17:36:12,550 - STREAM b'IDAT' 62 8192
+2023-03-09 17:36:12,586 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,586 - STREAM b'IDAT' 41 19351
+2023-03-09 17:36:12,605 - STREAM b'IHDR' 16 13
+2023-03-09 17:36:12,605 - STREAM b'pHYs' 41 9
+2023-03-09 17:36:12,606 - STREAM b'IDAT' 62 8192
+Traceback (most recent call last):
+  File "main.py", line 130, in <module>
+    main(args)
+  File "main.py", line 126, in main
+    train(train_loader, model, optimizer, criterion, args.print_freq, logger)
+  File "main.py", line 39, in train
+    ph, pw = pred.size(2), label.size(3)
+IndexError: Dimension out of range (expected to be in range of [-3, 2], but got 3)

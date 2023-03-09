@@ -1,0 +1,32 @@
+C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and will be removed in 0.15, please use 'weights' instead.
+  warnings.warn(
+C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\torchvision\models\_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and will be removed in 0.15. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+2023-03-09 17:37:31,868 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:31,869 - STREAM b'IDAT' 41 19810
+2023-03-09 17:37:31,883 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:31,883 - STREAM b'pHYs' 41 9
+2023-03-09 17:37:31,884 - STREAM b'IDAT' 62 8192
+2023-03-09 17:37:31,922 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:31,923 - STREAM b'IDAT' 41 19845
+2023-03-09 17:37:31,943 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:31,944 - STREAM b'pHYs' 41 9
+2023-03-09 17:37:31,945 - STREAM b'IDAT' 62 8192
+2023-03-09 17:37:31,983 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:31,984 - STREAM b'IDAT' 41 19984
+2023-03-09 17:37:32,000 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:32,001 - STREAM b'pHYs' 41 9
+2023-03-09 17:37:32,001 - STREAM b'IDAT' 62 8192
+2023-03-09 17:37:32,039 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:32,040 - STREAM b'IDAT' 41 18953
+2023-03-09 17:37:32,065 - STREAM b'IHDR' 16 13
+2023-03-09 17:37:32,066 - STREAM b'pHYs' 41 9
+2023-03-09 17:37:32,066 - STREAM b'IDAT' 62 8192
+Traceback (most recent call last):
+  File "main.py", line 130, in <module>
+    main(args)
+  File "main.py", line 126, in main
+    train(train_loader, model, optimizer, criterion, args.print_freq, logger)
+  File "main.py", line 60, in train
+    if label[num] == pred_class[num]:
+RuntimeError: Boolean value of Tensor with more than one value is ambiguous

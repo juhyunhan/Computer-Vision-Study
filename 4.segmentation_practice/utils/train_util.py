@@ -3,7 +3,7 @@ import os
 
 def get_log(path, mode='train'):
     logger = logging.getLogger()
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     
     foramatter = logging.Formatter('%(asctime)s - %(message)s') #포메터 설정 -> 스트림 -> 파일 저장하는 애한테 붙이고 -> 로거 
     stream_hander = logging.StreamHandler()
