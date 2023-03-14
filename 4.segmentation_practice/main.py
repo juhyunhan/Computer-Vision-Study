@@ -10,6 +10,7 @@ from utils.train_util import get_log, create_save_dir
 #from data.cifar10 import create_dataloader
 from models.seg_model import SegModel
 import torch.utils.data as data
+from utils.color_utils import decode_label
 
 def parse_args():
     parser = argparse.ArgumentParser(description='train, validation test argument')
@@ -63,8 +64,22 @@ def train(train_loader, model, optimizer, criterion, print_freq, logger):
         
         
         if i % print_freq == 0:
-            wandb.log({"Train/Loss" : loss.item()})
+            examples = []
+            view_pred = torch.argmax(logits, dim=1) #B, num_class 31번 중 가장 큰 값을 , H,w -> B,,H,W
+            view_pred = view_pred[0].detach().cpu().numpy() #가장 첫번째 사진을 가져와서 decode를 돌린다. , 색깔
+            
+            view_pred = decode_label(view_pred)
+            image = wandb.Image(view_pred, caption="segmentation pred")
+            
+            view_label = decode_label(label[0])
+            label_image = wandb.Image(view_label, caption="segmentation pred")
+            
+            examples.append(image)
+            examples.append(label_image)
+            
+            wandb.log({"Train/Loss" : loss.item(), "Train/Examples" : examples})
             logger.info(f" [LOSS]] : {loss.item()} ")
+        
         
 
             

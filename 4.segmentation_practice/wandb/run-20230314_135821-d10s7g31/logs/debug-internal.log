@@ -1,0 +1,196 @@
+2023-03-14 13:58:21,166 INFO    StreamThr :24928 [internal.py:wandb_internal():87] W&B internal server running at pid: 24928, started at: 2023-03-14 13:58:21.164665
+2023-03-14 13:58:21,170 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: status
+2023-03-14 13:58:21,173 INFO    WriterThread:24928 [datastore.py:open_for_write():85] open: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\run-d10s7g31.wandb
+2023-03-14 13:58:21,184 DEBUG   SenderThread:24928 [sender.py:send():334] send: header
+2023-03-14 13:58:21,408 DEBUG   SenderThread:24928 [sender.py:send():334] send: run
+2023-03-14 13:58:22,116 INFO    SenderThread:24928 [dir_watcher.py:__init__():216] watching files in: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files
+2023-03-14 13:58:22,117 INFO    SenderThread:24928 [sender.py:_start_run_threads():1065] run started: d10s7g31 with start time 1678769901.168662
+2023-03-14 13:58:22,117 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: summary_record
+2023-03-14 13:58:22,117 INFO    SenderThread:24928 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-14 13:58:22,123 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: check_version
+2023-03-14 13:58:22,123 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: check_version
+2023-03-14 13:58:22,464 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: run_start
+2023-03-14 13:58:23,131 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-summary.json
+2023-03-14 13:58:23,327 DEBUG   HandlerThread:24928 [system_info.py:__init__():31] System info init
+2023-03-14 13:58:23,327 DEBUG   HandlerThread:24928 [system_info.py:__init__():46] System info init done
+2023-03-14 13:58:23,327 INFO    HandlerThread:24928 [system_monitor.py:start():151] Starting system monitor
+2023-03-14 13:58:23,328 INFO    SystemMonitor:24928 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-14 13:58:23,328 INFO    HandlerThread:24928 [system_monitor.py:probe():172] Collecting system info
+2023-03-14 13:58:23,334 INFO    SystemMonitor:24928 [interfaces.py:start():168] Started cpu
+2023-03-14 13:58:23,335 INFO    SystemMonitor:24928 [interfaces.py:start():168] Started disk
+2023-03-14 13:58:23,336 INFO    SystemMonitor:24928 [interfaces.py:start():168] Started gpu
+2023-03-14 13:58:23,337 INFO    SystemMonitor:24928 [interfaces.py:start():168] Started memory
+2023-03-14 13:58:23,361 INFO    SystemMonitor:24928 [interfaces.py:start():168] Started network
+2023-03-14 13:58:23,390 ERROR   gpu       :24928 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-14 13:58:23,390 ERROR   gpu       :24928 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-14 13:58:23,401 DEBUG   HandlerThread:24928 [system_info.py:probe():195] Probing system
+2023-03-14 13:58:23,403 DEBUG   HandlerThread:24928 [system_info.py:_probe_git():180] Probing git
+2023-03-14 13:58:23,654 DEBUG   HandlerThread:24928 [system_info.py:_probe_git():188] Probing git done
+2023-03-14 13:58:23,654 DEBUG   HandlerThread:24928 [system_info.py:probe():241] Probing system done
+2023-03-14 13:58:23,654 DEBUG   HandlerThread:24928 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.8.13', 'heartbeatAt': '2023-03-14T04:58:23.401749', 'startedAt': '2023-03-14T04:58:21.128403', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'main.py', 'codePath': '4.segmentation_practice\\main.py', 'git': {'remote': 'https://github.com/juhyunhan/machine-learning-study.git', 'commit': '998633bae22645b1e5071e088c5dd25285652fe4'}, 'email': 'vvontomato@gmail.com', 'root': 'C:/Users/hjjh2/workspace/machine-learning-study', 'host': 'vvonto', 'username': 'hjjh2', 'executable': 'C:\\Users\\hjjh2\\anaconda3\\envs\\pytorch\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2801.0, 'min': 0.0, 'max': 2801.0}, 'cpu_freq_per_core': [{'current': 2801.0, 'min': 0.0, 'max': 2801.0}], 'disk': {'total': 457.85937118530273, 'used': 248.8258514404297}, 'gpu': 'GeForce MX450', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce MX450', 'memory_total': 2147483648}], 'memory': {'total': 15.684402465820312}}
+2023-03-14 13:58:23,654 INFO    HandlerThread:24928 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-14 13:58:23,654 INFO    HandlerThread:24928 [system_monitor.py:probe():185] Publishing system info
+2023-03-14 13:58:23,655 DEBUG   HandlerThread:24928 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-14 13:58:23,656 DEBUG   HandlerThread:24928 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-14 13:58:23,656 DEBUG   HandlerThread:24928 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-14 13:58:23,660 ERROR   HandlerThread:24928 [system_info.py:_save_conda():85] Error saving conda packages: [WinError 2] 지정된 파일을 찾을 수 없습니다
+Traceback (most recent call last):
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk\internal\system\system_info.py", line 81, in _save_conda
+    subprocess.call(
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 340, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 858, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\hjjh2\anaconda3\envs\pytorch\lib\subprocess.py", line 1311, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다
+2023-03-14 13:58:23,663 DEBUG   HandlerThread:24928 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-14 13:58:23,664 INFO    HandlerThread:24928 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-14 13:58:23,674 DEBUG   SenderThread:24928 [sender.py:send():334] send: files
+2023-03-14 13:58:23,674 INFO    SenderThread:24928 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-03-14 13:58:23,694 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-14 13:58:23,695 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: stop_status
+2023-03-14 13:58:23,992 DEBUG   SenderThread:24928 [sender.py:send():334] send: telemetry
+2023-03-14 13:58:23,994 DEBUG   SenderThread:24928 [sender.py:send():334] send: config
+2023-03-14 13:58:24,011 DEBUG   SenderThread:24928 [sender.py:send():334] send: telemetry
+2023-03-14 13:58:24,136 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\conda-environment.yaml
+2023-03-14 13:58:24,137 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-metadata.json
+2023-03-14 13:58:24,137 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\output.log
+2023-03-14 13:58:24,138 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\requirements.txt
+2023-03-14 13:58:24,491 INFO    Thread-22 :24928 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\AppData\Local\Temp\tmp11gte004wandb\uihfizy2-wandb-metadata.json
+2023-03-14 13:58:25,286 DEBUG   SenderThread:24928 [sender.py:send():334] send: exit
+2023-03-14 13:58:25,286 INFO    SenderThread:24928 [sender.py:send_exit():557] handling exit code: 1
+2023-03-14 13:58:25,286 INFO    SenderThread:24928 [sender.py:send_exit():559] handling runtime: 2
+2023-03-14 13:58:25,287 INFO    SenderThread:24928 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-14 13:58:25,287 INFO    SenderThread:24928 [sender.py:send_exit():565] send defer
+2023-03-14 13:58:25,288 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,288 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-14 13:58:25,288 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,288 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-03-14 13:58:25,288 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 1
+2023-03-14 13:58:25,288 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,288 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-14 13:58:25,288 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,288 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-03-14 13:58:25,288 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 2
+2023-03-14 13:58:25,288 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,288 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-14 13:58:25,289 INFO    HandlerThread:24928 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-14 13:58:25,289 DEBUG   SystemMonitor:24928 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-14 13:58:25,289 DEBUG   SystemMonitor:24928 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-14 13:58:25,289 DEBUG   SystemMonitor:24928 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-14 13:58:25,289 INFO    HandlerThread:24928 [interfaces.py:finish():175] Joined cpu
+2023-03-14 13:58:25,290 INFO    HandlerThread:24928 [interfaces.py:finish():175] Joined disk
+2023-03-14 13:58:25,707 ERROR   gpu       :24928 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-03-14 13:58:25,708 INFO    HandlerThread:24928 [interfaces.py:finish():175] Joined gpu
+2023-03-14 13:58:25,708 INFO    HandlerThread:24928 [interfaces.py:finish():175] Joined memory
+2023-03-14 13:58:25,708 INFO    HandlerThread:24928 [interfaces.py:finish():175] Joined network
+2023-03-14 13:58:25,708 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,708 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-03-14 13:58:25,708 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 3
+2023-03-14 13:58:25,708 DEBUG   SenderThread:24928 [sender.py:send():334] send: stats
+2023-03-14 13:58:25,708 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,709 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-14 13:58:25,710 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,710 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-03-14 13:58:25,710 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 4
+2023-03-14 13:58:25,710 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,710 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-14 13:58:25,710 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,710 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-03-14 13:58:25,710 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 5
+2023-03-14 13:58:25,710 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,710 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-14 13:58:25,711 DEBUG   SenderThread:24928 [sender.py:send():334] send: summary
+2023-03-14 13:58:25,711 INFO    SenderThread:24928 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-14 13:58:25,712 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,712 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-03-14 13:58:25,712 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 6
+2023-03-14 13:58:25,712 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:25,712 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-14 13:58:25,712 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:25,712 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-03-14 13:58:25,718 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 13:58:26,097 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 7
+2023-03-14 13:58:26,098 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:26,098 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-14 13:58:26,099 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:26,099 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-03-14 13:58:26,147 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-summary.json
+2023-03-14 13:58:26,147 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\config.yaml
+2023-03-14 13:58:26,148 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\output.log
+2023-03-14 13:58:26,318 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 13:58:28,054 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 8
+2023-03-14 13:58:28,055 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: poll_exit
+2023-03-14 13:58:28,056 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:28,057 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-14 13:58:28,058 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:28,058 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-03-14 13:58:28,142 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 9
+2023-03-14 13:58:28,143 DEBUG   SenderThread:24928 [sender.py:send():334] send: artifact
+2023-03-14 13:58:28,143 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:28,147 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-14 13:58:28,176 INFO    Thread-17 :24928 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\output.log
+2023-03-14 13:58:30,375 INFO    Thread-24 :24928 [upload_job.py:push():98] Skipped uploading C:\Users\hjjh2\AppData\Local\wandb\wandb\artifacts\staging\tmpiuw4jm2a
+2023-03-14 13:58:30,907 INFO    Thread-25 :24928 [upload_job.py:push():101] Uploaded file C:\Users\hjjh2\AppData\Local\wandb\wandb\artifacts\staging\tmp88nd2t9_
+2023-03-14 13:58:31,390 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 13:58:32,935 INFO    SenderThread:24928 [sender.py:send_artifact():1415] sent artifact job-https___github.com_juhyunhan_machine-learning-study.git_4.segmentation_practice_main.py - {'id': 'QXJ0aWZhY3Q6Mzk2NTg2NjY3', 'digest': '576a3c9f45d1334da023ce953e067983', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2NDI4NzQy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MzkyMjc3NTM1', 'versionIndex': 1}}, 'version': 'latest'}
+2023-03-14 13:58:32,935 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:32,935 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-03-14 13:58:32,935 INFO    SenderThread:24928 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-14 13:58:33,245 INFO    SenderThread:24928 [dir_watcher.py:finish():392] scan: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files
+2023-03-14 13:58:33,245 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\conda-environment.yaml conda-environment.yaml
+2023-03-14 13:58:33,246 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\config.yaml config.yaml
+2023-03-14 13:58:33,247 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\output.log output.log
+2023-03-14 13:58:33,249 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\requirements.txt requirements.txt
+2023-03-14 13:58:33,264 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-metadata.json wandb-metadata.json
+2023-03-14 13:58:33,265 INFO    SenderThread:24928 [dir_watcher.py:finish():406] scan save: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-summary.json wandb-summary.json
+2023-03-14 13:58:33,274 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 10
+2023-03-14 13:58:33,275 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:33,276 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-14 13:58:33,277 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 13:58:33,279 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:33,284 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-03-14 13:58:33,284 INFO    SenderThread:24928 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-14 13:58:34,076 INFO    Thread-29 :24928 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\wandb-summary.json
+2023-03-14 13:58:34,077 INFO    Thread-26 :24928 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\config.yaml
+2023-03-14 13:58:34,106 INFO    Thread-28 :24928 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\requirements.txt
+2023-03-14 13:58:34,108 INFO    Thread-27 :24928 [upload_job.py:push():143] Uploaded file C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\files\output.log
+2023-03-14 13:58:34,316 INFO    Thread-16 :24928 [sender.py:transition_state():585] send defer: 11
+2023-03-14 13:58:34,317 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:34,317 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-14 13:58:34,318 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:34,318 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-03-14 13:58:34,318 INFO    SenderThread:24928 [file_pusher.py:join():165] waiting for file pusher
+2023-03-14 13:58:34,318 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 12
+2023-03-14 13:58:34,319 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:34,319 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-14 13:58:34,320 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:34,320 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-03-14 13:58:34,617 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 13
+2023-03-14 13:58:34,617 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:34,618 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-14 13:58:34,619 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:34,619 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-03-14 13:58:34,619 INFO    SenderThread:24928 [sender.py:transition_state():585] send defer: 14
+2023-03-14 13:58:34,620 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 13:58:34,621 INFO    HandlerThread:24928 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-14 13:58:34,622 DEBUG   SenderThread:24928 [sender.py:send():334] send: final
+2023-03-14 13:58:34,622 DEBUG   SenderThread:24928 [sender.py:send():334] send: footer
+2023-03-14 13:58:34,622 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: defer
+2023-03-14 13:58:34,623 INFO    SenderThread:24928 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-03-14 13:58:34,624 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 13:58:34,624 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: server_info
+2023-03-14 13:58:34,625 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-14 13:58:34,625 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-14 13:58:34,626 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: poll_exit
+2023-03-14 13:58:34,626 DEBUG   SenderThread:24928 [sender.py:send_request():361] send_request: server_info
+2023-03-14 13:58:35,176 INFO    MainThread:24928 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-03-14 13:58:35,177 INFO    MainThread:24928 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-03-14 13:58:35,177 INFO    MainThread:24928 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-03-14 13:58:35,186 DEBUG   HandlerThread:24928 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-14 13:58:35,187 INFO    HandlerThread:24928 [handler.py:finish():841] shutting down handler
+2023-03-14 13:58:35,638 INFO    WriterThread:24928 [datastore.py:close():299] close: C:\Users\hjjh2\workspace\machine-learning-study\4.segmentation_practice\wandb\run-20230314_135821-d10s7g31\run-d10s7g31.wandb
+2023-03-14 13:58:36,185 INFO    SenderThread:24928 [sender.py:finish():1491] shutting down sender
+2023-03-14 13:58:36,185 INFO    SenderThread:24928 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-14 13:58:36,185 INFO    SenderThread:24928 [file_pusher.py:join():165] waiting for file pusher

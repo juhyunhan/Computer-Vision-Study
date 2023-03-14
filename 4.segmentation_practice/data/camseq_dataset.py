@@ -3,6 +3,7 @@ import numpy as np
 import glob
 from torch.utils import data
 import torchvision
+from torchvision.transforms import InterpolationMode
 from PIL import Image
 import os
 
@@ -12,7 +13,8 @@ class CamSeqDatset(data.Dataset):
         path = os.path.dirname(os.path.abspath(__file__))
         self.files = glob.glob(path + '/camseq2007/*label.png') #리스트에 담김
         self.transform = torchvision.transforms.Compose([torchvision.transforms.ToTensor(),
-                                                         torchvision.transforms.Resize((144,192))])
+                                                         torchvision.transforms.Resize((288,384),interpolation=InterpolationMode.NEAREST)]) #그냥 키우면..
+        #인털폴레이션 : 보관법 . . 
         if len(self.files) == 0 :  
             raise ValueError("Dataset not found ! !")
         
