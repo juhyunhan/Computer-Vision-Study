@@ -1,0 +1,28 @@
+2023-05-31 22:30:34,392 INFO    MainThread:14396 [wandb_setup.py:_flush():68] Configure stats pid to 14396
+2023-05-31 22:30:34,392 INFO    MainThread:14396 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\.config\wandb\settings
+2023-05-31 22:30:34,393 INFO    MainThread:14396 [wandb_setup.py:_flush():68] Loading settings from C:\Users\hjjh2\workspace\Computer-Vision-Study\project1\wandb\settings
+2023-05-31 22:30:34,393 INFO    MainThread:14396 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-05-31 22:30:34,393 INFO    MainThread:14396 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'project1\\main.py', 'program': 'main.py'}
+2023-05-31 22:30:34,402 INFO    MainThread:14396 [wandb_init.py:_log_setup():478] Logging user logs to C:\Users\hjjh2\workspace\Computer-Vision-Study\project1\wandb\run-20230531_223034-jykdjhmo\logs\debug.log
+2023-05-31 22:30:34,403 INFO    MainThread:14396 [wandb_init.py:_log_setup():479] Logging internal logs to C:\Users\hjjh2\workspace\Computer-Vision-Study\project1\wandb\run-20230531_223034-jykdjhmo\logs\debug-internal.log
+2023-05-31 22:30:34,403 INFO    MainThread:14396 [wandb_init.py:init():518] calling init triggers
+2023-05-31 22:30:34,403 INFO    MainThread:14396 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {}
+2023-05-31 22:30:34,404 INFO    MainThread:14396 [wandb_init.py:init():571] starting backend
+2023-05-31 22:30:34,404 INFO    MainThread:14396 [wandb_init.py:init():575] setting up manager
+2023-05-31 22:30:34,410 INFO    MainThread:14396 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-05-31 22:30:34,417 INFO    MainThread:14396 [wandb_init.py:init():582] backend started and connected
+2023-05-31 22:30:34,419 INFO    MainThread:14396 [wandb_init.py:init():670] updated telemetry
+2023-05-31 22:30:34,637 INFO    MainThread:14396 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-05-31 22:30:35,257 INFO    MainThread:14396 [wandb_run.py:_on_init():2121] communicating current version
+2023-05-31 22:30:35,382 INFO    MainThread:14396 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-31 22:30:35,382 INFO    MainThread:14396 [wandb_init.py:init():758] starting run threads in backend
+2023-05-31 22:30:36,523 INFO    MainThread:14396 [wandb_run.py:_console_start():2101] atexit reg
+2023-05-31 22:30:36,524 INFO    MainThread:14396 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-05-31 22:30:36,524 INFO    MainThread:14396 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-05-31 22:30:36,524 INFO    MainThread:14396 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-05-31 22:30:36,524 INFO    MainThread:14396 [wandb_init.py:init():798] run started, returning control to user process
+2023-05-31 22:30:36,525 INFO    MainThread:14396 [wandb_run.py:_config_callback():1249] config_cb None None {'epochs': 10, 'project_name': 'Project1', 'batch_size': 4, 'learning_rate': 0.001, 'print_freq': 1}
+2023-05-31 22:30:36,548 INFO    MainThread:14396 [wandb_watch.py:watch():51] Watching
+2023-05-31 22:31:43,719 WARNING MsgRouterThr:14396 [router.py:message_loop():77] message_loop has been closed

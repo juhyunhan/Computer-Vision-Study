@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 128, in <module>
+    main(args)
+  File "main.py", line 123, in main
+    train(train_loader, model, optimizer, criterion, args.print_freq, logger)
+  File "main.py", line 47, in train
+    pred_per_batch = pred_class[batch]
+NameError: name 'pred_class' is not defined

@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-05-31T13:35:32.614078",
+    "startedAt": "2023-05-31T13:35:30.781043",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--project_name",
+        "Project1",
+        "--print_freq",
+        "1"
+    ],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "project1\\main.py",
+    "git": {
+        "remote": "https://github.com/juhyunhan/machine-learning-study.git",
+        "commit": "e66f3a754bcecb5d2d68ba8461166c51dbca85e9"
+    },
+    "email": "hjh5842@kau.kr",
+    "root": "C:/Users/hjjh2/workspace/Computer-Vision-Study",
+    "host": "vvonto",
+    "username": "hjjh2",
+    "executable": "C:\\Users\\hjjh2\\anaconda3\\envs\\pytorch\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2801.0,
+        "min": 0.0,
+        "max": 2801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2801.0,
+            "min": 0.0,
+            "max": 2801.0
+        }
+    ],
+    "disk": {
+        "total": 457.62401962280273,
+        "used": 231.12200927734375
+    },
+    "gpu": "GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 15.684394836425781
+    }
+}
